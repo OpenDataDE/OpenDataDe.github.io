@@ -5,280 +5,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,500,700,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-	<link rel="stylesheet" href="/css/main.css">
-	<style type="text/css">
-	<!--
-	* {
-		box-sizing:border-box;
-	}
-
-	a {
-		color: #d8ac6d;
-	}
-
-	a:hover {
-		text-decoration:none;
-	}
-
-	.container {
-		width:80%;
-	}
-
-	.btn {
-		text-decoration: none;
-	    text-align: center;
-	    font-size:1.3em;
-	    text-transform: uppercase;
-	    color: white;
-	    display: inline-block;
-	    padding: 5px;
-	    border: 5px solid white;
-	    width: auto;
-	    margin: 10px auto;
-	    border-radius:0px;
-	    text-shadow:none;
-	}
-
-	.navbar {
-		height:75px;
-		margin-bottom:0;
-		background-color:transparent;
-		border:0px;
-	}
-
-	.opedatade {
-		font-family: Roboto Mono, Tahoma, Geneva, sans-serif;
-	}
-	.oddelogo {
-		height: 125px;
-		margin-top: -12px;
-	}
-
-	#header {
-		background:
-			linear-gradient(
-		      rgba(119, 161, 160, 0.75),
-		      rgba(119, 161, 160, 0.75)
-		    ),
-		    /* bottom, image */
-		    url(img/legislativehall.jpg);
-		    background-size:100% auto;
-		    background-repeat:no-repeat;
-	}
-
-	#header div {
-		text-align: center;
-	}
-
-	.row.intro {
-		height:480px;
-		width:100%;
-		margin:0 auto;
-		overflow:auto;
-		display:flex;
-		justify-content:center;
-    	align-content:center;
-    	flex-direction:column;
-	}
-
-	.introcontent {
-		color:white;
-		width:100%;
-		font-size:2em;
-		text-shadow:1px 1px black;
-	}
-
-	.featuredlinks.col-md-4 {
-		height:360px;
-		font-family:Roboto;
-		font-size:2em;
-		box-sizing:border-box;
-		padding:0;
-		text-align:center;
-	}
-
-	.social {
-		color: white;
-		text-shadow:1px 1px black;
-		display:block;
-		width:100%;
-		height:100%;
-		display: flex;
-    	justify-content:center;
-    	align-content:center;
-    	flex-direction:column;
-	}
-
-	.meetup {
-		background:
-			linear-gradient(
-		      rgba(216, 172, 109, 0.45),
-		      rgba(216, 172, 109, 0.45)
-		    ),
-		    /* bottom, image */
-		    url(img/meetup.jpg);
-		background-size:cover;
-	}
-
-	.slack {
-		background:
-			linear-gradient(
-		      rgba(216, 172, 109, 0.45),
-		      rgba(216, 172, 109, 0.45)
-		    ),
-		    /* bottom, image */
-		    url(img/markell.jpg);
-		background-size:cover;
-	}
-
-	.github {
-		background:
-			linear-gradient(
-		      rgba(119, 161, 160, 0.45),
-		      rgba(119, 161, 160, 0.45)
-		    ),
-		    /* bottom, image */
-		    url(img/github.jpg);
-		    background-size:cover;
-	}
-
-	.row.twitter {
-		padding-top:2em;
-		text-align:center;
-		background:
-			linear-gradient(
-		      rgba(119, 161, 160, 0.60),
-		      rgba(119, 161, 160, 0.60)
-		    ),
-		    /* bottom, image */
-		    url(img/market.jpg);
-		font-size:1.3em;
-		color:white;
-	}
-
-	#twitterFetcher ul {
-		list-style-type:none;
-		padding:0;
-	}
-
-	#twitterFetcher li {
-		padding-bottom:2em;
-	}
-
-	#twitterFetcher li:first-child {
-		padding-top:2em;
-	}
-
-	#twitterFetcher .user {
-		padding-bottom:1em;
-	}
-
-	#twitterFetcher .user img {
-		border-radius:50%;
-	}
-
-	#twitterFetcher a {
-		color:white;
-		text-decoration:none;
-	}
-
-	#twitterFetcher a:hover {
-		color: #d8ac6d;
-		text-shadow:1px 1px black;
-	}
-
-	.tweet {
-		overflow-wrap:break-word;
-	}
-
-	.tweet a {
-		padding:1px;
-		border-bottom:1px solid #d8ac6d;
-	}
-
-	.interact a {
-	margin: 0 10px;
-	}
-
-	.interact a, .timePosted a {
-		border-bottom:none;
-		text-decoration:none;
-	}
-
-	.interact a:hover, .timePosted a:hover {
-		background-color:transparent;
-	}
-
-	.twitter_reply_icon, .twitter_retweet_icon, .twitter_fav_icon {
-	    font-size:0px;
-	    display: inline-block;
-	    text-align: center;
-	    padding:4px;
-	    width:20px;
-	}
-
-	.twitter_reply_icon:before, .twitter_retweet_icon:before, .twitter_fav_icon:before {
-	    font-family: FontAwesome;
-	    font-style: normal;
-	    font-weight: normal;
-	    text-decoration: none;
-	    font-size: 18px;
-	    padding-right: 0.5em;
-	}
-
-	.twitter_reply_icon:before {
-	    content: '\f112';
-	}
-
-	.twitter_retweet_icon:before {
-	    content: '\f079';
-	}
-
-	.twitter_fav_icon:before {
-	    content: '\f005';
-	}
-
-	.row.contactus {
-		height:240px;
-		box-sizing:border-box;
-		background:
-			linear-gradient(
-		      rgba(216, 172, 109, 0.45),
-		      rgba(216, 172, 109, 0.45)
-		    ),
-		    /* bottom, image */
-		    url(img/contact.jpg);
-		background-size:cover;
-		color:white;
-		text-shadow:1px 1px black;
-	}
-
-	.col-md-8.contactus, .col-md-4.contactus {
-		height:240px;
-		box-sizing:border-box;
-		text-align:center;
-		font-size:2em;
-		display: flex;
-    	justify-content:center;
-    	align-content:center;
-    	flex-direction:column;
-	}
-
-	footer {
-		background-color: rgba(119, 161, 160, 0.75);
-		color:white;
-		text-align:center;
-	}
-
-	footer a {
-		color: #337ab7;
-	}
-
-	body {
-		font-family:"Roboto";
-	}
-	-->
-	</style>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.0.2/css/hover-min.css">
 </head>
 <body>
 	<header id="header">
@@ -309,7 +37,7 @@
 				</a>
 			</div>
 			<div class="featuredlinks col-md-4" >
-				<!--img class="center-block" src="dataDE.jpg" alt="Open Data Delaware" /-->
+
 				<a class="social inverse github" href="https://github.com/OpenDataDE">Fork a repository on Github</a>
 			</div>
 			<div class="featuredlinks col-md-4">
@@ -324,13 +52,17 @@
 				<div id="twitterFetcher"></div>
 			</div>
 		</div>
-		<div class="row contactus">
-			<div class="container">
-  				<div class="col-md-8 contactus">Interested in learning more about Open Data Delaware and getting involved? Shoot us an email.</div>
-  				<div class="col-md-4 contactus contact">
-  					<a href="mailto:opendatade@gmail.com" class="btn">Contact Us</a>
+		<div class="row contactus frame">
+			<div class="container pushtext">
+  				<div class="col-md-8 col-sm-12 contactus">
+  					<p>Interested in learning more about Open Data Delaware and getting involved? Shoot us an email.</p>
   				</div>
-  			</div>
+					<div class="clearfix visible-sm-block"></div>
+  				<div class="col-md-4 contactus contact">
+  					<a href="mailto:opendatade@gmail.com" class="btn hvr-wobble-horizontal">Contact Us</a>
+  				</div>
+
+  		</div>
   		</div>
   		<footer class="row">
   			Made with love by <a href="http://dominiqueclarke.github.io/portfolio">Dominique Clarke</a>. Other credits: <a href="https://fortawesome.github.io/Font-Awesome/">Font Awesome.</a> Photos by <a href="https://www.flickr.com/photos/oldeyankee/8141840160/in/photolist-bWSude-6KHLQC-do6bPc-nm3WWq-bBUH7X-bnupMU-bC92BT-5yfhpN-bBUJoM-fmHvek-eKMKLP-bnupSu-bnupL7-4QidtG-8e9vkr-ebq1FL-2z2JEM-fgbcTf-dpt4qu-6J6Vwd">Snap Shots of the Past</a>, <a href="https://www.flickr.com/photos/jstephenconn/5830632941/in/photolist-be4zQv-akzSPg-bcWCCH-bcWKxV-bckmex-9TevPx-h6mHK-9Tew3a-9Tevq8-9Thka9-dvs3YD-betF58-be4AFk-be4zhn-be4BfX-b945Fg-be4xvF-be4xFr-be4y8B-be4xip-be4ykv-be4wpx-be4wPV-be4wGc-be4wwK-be4xTV-be4Am6-be4AZH">J. Stephen Conn</a>, <a href="https://www.flickr.com/photos/michelgagnon/8810537887/in/photolist-eqyiXD-bzwbwj-bNqPnF-bNqPc4-5pNjj5-559PgL-87SNhR-s9F5gg-86j8xL-9nXpsz-cno6XU-s9FqKT-bzwaoQ-bpi8np-5pNjkf-7AMtvW-eN6NQu-bh7DCR-9msW26-rcXEAz-7MnFWD-bNqP2B-bzwbbh-s9EKyX-gkht1-bNqNZn-bzwbvj-bNqNTp-rS4VjE-a4GG71-bNqP4z-bzwaUC-cJgoWC-bNqPig-bzwb8q-bNqPvr-bzwaww-3fMiCY-86wzW-bzwbxq-bNqPfP-bNqPSZ-bzwb4o-bNqQ54-bzwaMJ-bNqPyD-bNqQ3x-555AJ8-bzwbgb-bzwbkY">Michael G</a>, <a href="http://zipcodewilmington.com">Zip Code Wilmington</a>, and <a href="http://enactdev.com/">Chris Williams</a>
