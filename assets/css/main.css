@@ -1827,7 +1827,7 @@
 		text-align: center;
 	}
 
-	/*header.alt style2 {
+	/*.alt style2 {
 			font-family: 'Roboto', sans-serif;
 			font-size: 3.25em;
 		}*/
@@ -3183,7 +3183,7 @@
 				color: #242943;
 				display: inline-block;
 				line-height: 1.65em;
-				margin-right: 0.325em;
+				margin-left: 0.325em;
 				padding: 0 0.125em 0 0.375em;
 			}
 
@@ -3194,6 +3194,20 @@
 			#header .logo:active strong {
 				background-color: #53e3fb;
 			}
+
+		#header .button {
+
+				border: 0;
+				display: block;
+				font-size: 0.8em;
+				height: inherit;
+				line-height: inherit;
+				padding: 0 0.75em;
+				position: absolute;
+				right: 0em;
+				vertical-align: middle;
+		}	
+
 
 		#header nav {
 			display: -moz-flex;
