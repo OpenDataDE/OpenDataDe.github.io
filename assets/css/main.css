@@ -3426,14 +3426,14 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/ODDEbanner.jpg");
+		background-image: url("../../images/github_background.png");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
 		padding: 6em 0 2em 0 ;
 		background-attachment: fixed;
-		background-position: center;
+		background-position: center -250px;
 		background-repeat: no-repeat;
 		background-size: cover;
 		border-bottom: 0 !important;
@@ -3546,7 +3546,7 @@
 
 		#banner.style2:after {
 			background-color: #8ea9e8;
-			background-image: url("../../images/ODDEbannerRight2.jpg");
+			background-image: url("../../images/light_hero_banner.png");
 			background-repeat: no-repeat;
 		}
 

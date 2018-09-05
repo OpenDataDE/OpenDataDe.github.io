@@ -46,14 +46,18 @@
 
 			on = function() {
 
-				$t.css('background-position', 'center 100%, center 100%, center 0px');
+							/* Pretty sure this is not right. Saving for posterity and ridicule
+				$t.css('background-position', 'center 100%, center 100%, center 0px');*/
+				var offsetY = parseInt($t.css('background-position').split(' ')[1]) || 0;
+				$t.css('background-position', 'center ' + offsetY + 'px');
 
 				$window
 					.on('scroll._parallax', function() {
 
 						var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
-
-						$t.css('background-position', 'center ' + (pos * (-1 * intensity)) + 'px');
+						var offsety = $t.data('offset-y') || parseInt($t.css('background-position').split(' ')[1]) || 0;
+						$t.css('background-position', 'center ' + (pos * (-1 * intensity) + offsety) + 'px');
+									$t.data('offset-y', offsety);
 
 					});
 
@@ -350,3 +354,4 @@
 	});
 
 })(jQuery);
+
