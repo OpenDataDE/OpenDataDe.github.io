@@ -43,6 +43,12 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+	
+	#logo-with-margin{
+		height: 150%;
+		position: absolute;
+		top: -25%;
+	}
 
 /* Box Model */
 
