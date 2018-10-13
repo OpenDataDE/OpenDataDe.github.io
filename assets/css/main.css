@@ -3452,6 +3452,10 @@
 		top: -3.25em;
 	}
 
+	#banner.about-header {
+		background-image: url("../../images/odc18_participants_banner.jpg");
+	}
+
 		#banner:after {
 			/*-moz-transition: opacity 0s ease;
 			-webkit-transition: opacity 0s ease;
@@ -3552,8 +3556,6 @@
 
 		#banner.style2:after {
 			background-color: #8ea9e8;
-			background-image: url("../../images/light_hero_banner.png");
-			background-repeat: no-repeat;
 		}
 
 		#banner.style3:after {
@@ -3592,6 +3594,7 @@
 
 			#banner {
 				background-attachment: scroll;
+				background-position: center;
 			}
 
 		}
